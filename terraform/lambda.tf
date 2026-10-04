@@ -27,3 +27,9 @@ resource "aws_lambda_function_url" "storefront" {
   function_name      = aws_lambda_function.storefront.function_name
   authorization_type = "AWS_IAM"
 }
+
+environment {
+  variables = {
+    APP_SECRET_ID = "mavencrest/lambda/storefront"
+  }
+}
