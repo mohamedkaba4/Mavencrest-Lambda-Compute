@@ -13,23 +13,18 @@ resource "aws_lambda_function" "storefront" {
 
   environment {
     variables = {
-      DATABASE_URL         = var.database_url
-      NEXTAUTH_SECRET      = var.nextauth_secret
-      GOOGLE_CLIENT_ID     = var.google_client_id
-      GOOGLE_CLIENT_SECRET = var.google_client_secret
-      GITHUB_ID            = var.github_id
-      GITHUB_SECRET        = var.github_secret
+      SSM_PARAMETER_PREFIX = "/nextjs/prod"
     }
+  }
+
+  lifecycle {
+    ignore_changes = [
+      image_uri
+    ]
   }
 }
 
 resource "aws_lambda_function_url" "storefront" {
   function_name      = aws_lambda_function.storefront.function_name
   authorization_type = "AWS_IAM"
-}
-
-environment {
-  variables = {
-    APP_SECRET_ID = "mavencrest/lambda/storefront"
-  }
 }
