@@ -1,0 +1,3 @@
+{
+  "/[...fallback]/page": "app/[...fallback]/page.js"
+}

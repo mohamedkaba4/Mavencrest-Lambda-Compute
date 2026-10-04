@@ -1,0 +1,23 @@
+{
+  "/[...fallback]/page": "/[...fallback]",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/admin/inventory/page": "/admin/inventory",
+  "/api/auth/[...nextauth]/route": "/api/auth/[...nextauth]",
+  "/api/auth/register/route": "/api/auth/register",
+  "/api/orders/route": "/api/orders",
+  "/api/products/[slug]/route": "/api/products/[slug]",
+  "/api/products/route": "/api/products",
+  "/auth/login/page": "/auth/login",
+  "/auth/signup/page": "/auth/signup",
+  "/categories/[slug]/page": "/categories/[slug]",
+  "/checkout/page": "/checkout",
+  "/favicon.ico/route": "/favicon.ico",
+  "/kids/page": "/kids",
+  "/men/page": "/men",
+  "/nutrition/page": "/nutrition",
+  "/page": "/",
+  "/products/[slug]/page": "/products/[slug]",
+  "/products/page": "/products",
+  "/women/page": "/women"
+}

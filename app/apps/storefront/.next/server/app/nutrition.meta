@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/nutrition/layout,_N_T_/nutrition/page,_N_T_/nutrition"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/nutrition/__PAGE__",
+    "/nutrition",
+    "/_index",
+    "/_head"
+  ]
+}

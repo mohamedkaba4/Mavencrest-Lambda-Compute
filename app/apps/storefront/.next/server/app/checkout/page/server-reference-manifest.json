@@ -1,0 +1,17 @@
+{
+  "node": {
+    "6003d314ae78fe52f2a6e9497e513eebf155d87179": {
+      "workers": {
+        "app/checkout/page": {
+          "moduleId": 95589,
+          "async": true,
+          "exportedName": "processCheckout",
+          "filename": "apps/storefront/app/actions/checkout.ts"
+        }
+      },
+      "exportedName": "processCheckout",
+      "filename": "apps/storefront/app/actions/checkout.ts"
+    }
+  },
+  "edge": {}
+}
