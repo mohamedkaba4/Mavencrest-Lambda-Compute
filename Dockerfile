@@ -10,5 +10,6 @@ ENV NODE_ENV=production
 WORKDIR /var/task
 
 COPY app/ ./
+COPY bootstrap.js ./
 
-CMD ["node", "apps/storefront/server.js"]
+CMD ["node", "bootstrap.js"]
