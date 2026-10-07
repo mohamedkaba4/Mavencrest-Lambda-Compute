@@ -8,6 +8,8 @@ The current Mavencrest application runs as a persistent Next.js Node.js server o
 
 This project packages the same storefront for AWS Lambda so the compute layer can scale to zero when the application is not being used.
 
+Live URL: https://stores.mavencrest.site
+
 ## Architecture
 
 ### Current
